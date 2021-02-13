@@ -15,5 +15,6 @@ sum_len = 0
 for message in data:
 	sum_len = sum_len + len(message)
 
+
 avelen = sum_len / len(data)
 print('每筆留言平均的長度是', avelen)
